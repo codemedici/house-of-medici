@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .uuid-0a770671-2059-451d-b8c7-9862e1eb2548 {
+        fill: #fff;
+      }
+
+      .uuid-725be60c-c133-4617-abf1-0b422cd7d488 {
+        fill: transparent;
+      }
+
+      .uuid-bd72a17e-d972-42b6-8872-d9ca7eef2077 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="uuid-b712b336-e0e4-4cc5-874c-c4860a64d0df" data-name="Livello 2">
+    <g id="uuid-39b903af-85ff-4bb4-bd6c-d9975d6d4669" data-name="Tracciato 166">
+      <path class="uuid-725be60c-c133-4617-abf1-0b422cd7d488" d="M33.33,0h233.33c18.41,0,33.33,14.92,33.33,33.33h0v233.33c0,18.41-14.92,33.33-33.33,33.33H33.33c-18.41,0-33.33-14.92-33.33-33.33H0V33.33C0,14.92,14.92,0,33.33,0h0Z"/>
+    </g>
+  </g>
+  <g id="uuid-6e05e127-45bb-4381-b595-d0364f913c1d" data-name="Livello 3">
+    <g id="uuid-c0540e43-a213-4564-8d85-31751d3ed1d1" data-name="Mint">
+      <line class="uuid-bd72a17e-d972-42b6-8872-d9ca7eef2077 dashboardIconStroke" x1="149.44" y1="101.66" x2="149.44" y2="197.64"/>
+      <line class="uuid-bd72a17e-d972-42b6-8872-d9ca7eef2077 dashboardIconStroke" x1="101.44" y1="149.65" x2="197.43" y2="149.65"/>
+      <path class="uuid-0a770671-2059-451d-b8c7-9862e1eb2548 dahsboardIconFill" d="M149.44,63c47.75,0,86.59,38.85,86.59,86.59s-38.85,86.59-86.59,86.59-86.59-38.85-86.59-86.59S101.69,63,149.44,63m0-6c-51.14,0-92.59,41.46-92.59,92.59s41.46,92.59,92.59,92.59,92.59-41.46,92.59-92.59-41.46-92.59-92.59-92.59h0Z"/>
+    </g>
+  </g>
+</svg>

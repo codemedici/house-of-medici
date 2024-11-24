@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-e73912aa-c3f5-4d16-a2e4-3ae86473469e" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 525.73 526.29">
+  <defs>
+    <style>
+      .uuid-3ce52f0f-b26e-4c13-97e1-83b16518347a {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <rect class="uuid-3ce52f0f-b26e-4c13-97e1-83b16518347a" x="87.33" y="4" width="434.4" height="434.4" rx="75" ry="75"/>
+  <g>
+    <line class="uuid-3ce52f0f-b26e-4c13-97e1-83b16518347a" x1="304.53" y1="140.14" x2="304.53" y2="302.26"/>
+    <line class="uuid-3ce52f0f-b26e-4c13-97e1-83b16518347a" x1="385.59" y1="221.2" x2="223.48" y2="221.2"/>
+  </g>
+  <path class="uuid-3ce52f0f-b26e-4c13-97e1-83b16518347a" d="M363.4,522.29H79c-41.42,0-75-33.58-75-75V162.89"/>
+</svg>

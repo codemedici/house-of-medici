@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-e4410961-1a87-48b6-9d53-14df25c1a747" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595 595">
+  <defs>
+    <style>
+      .uuid-5e5b5a4a-4b45-4437-9153-f8161699dec8 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 33px;
+      }
+    </style>
+  </defs>
+  <g id="uuid-13091be5-dc28-4402-ad5e-8b18e9fea231" data-name="Icon feather-loader">
+    <path id="uuid-7f0e8843-0324-44cb-a263-9bbd6deba797" data-name="Tracciato 208" class="uuid-5e5b5a4a-4b45-4437-9153-f8161699dec8" d="M297.5,16.5v112.4"/>
+    <path id="uuid-58a35f77-0dc1-4795-ad03-586c28902fa8" data-name="Tracciato 209" class="uuid-5e5b5a4a-4b45-4437-9153-f8161699dec8" d="M297.5,466.1v112.4"/>
+    <path id="uuid-a4630f57-aa3d-45d1-865b-c7a7bb5970d5" data-name="Tracciato 210" class="uuid-5e5b5a4a-4b45-4437-9153-f8161699dec8" d="M98.83,98.83l79.52,79.52"/>
+    <path id="uuid-f23ad833-0791-438f-9194-591889c393a1" data-name="Tracciato 211" class="uuid-5e5b5a4a-4b45-4437-9153-f8161699dec8" d="M416.64,416.64l79.43,79.43"/>
+    <path id="uuid-d4eae203-347e-4325-b446-f3bb9a3b28dc" data-name="Tracciato 212" class="uuid-5e5b5a4a-4b45-4437-9153-f8161699dec8" d="M16.5,297.5h112.4"/>
+    <path id="uuid-7fc4a570-2096-4a7c-9685-939cab3e768f" data-name="Tracciato 213" class="uuid-5e5b5a4a-4b45-4437-9153-f8161699dec8" d="M466.1,297.5h112.4"/>
+    <path id="uuid-12c656c0-e550-464a-8c26-0c7df3a88f38" data-name="Tracciato 214" class="uuid-5e5b5a4a-4b45-4437-9153-f8161699dec8" d="M98.83,496.07l79.52-79.43"/>
+    <path id="uuid-46065e3f-318f-4926-99da-b5ba44b6b413" data-name="Tracciato 215" class="uuid-5e5b5a4a-4b45-4437-9153-f8161699dec8" d="M416.64,178.36l79.43-79.52"/>
+  </g>
+</svg>

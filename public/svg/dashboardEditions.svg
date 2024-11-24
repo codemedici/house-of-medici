@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .uuid-9f67cc6e-2e03-4a75-a757-6ea467c92af8 {
+        fill: #fff;
+      }
+
+      .uuid-72d5a690-e387-4063-86c4-4f8070c3f360 {
+        fill: transparent;
+      }
+
+      .uuid-f65cc8a7-74ab-4692-81e7-23ca582c59a6 {
+        stroke-dasharray: 0 0 18.72 18.72;
+      }
+
+      .uuid-f65cc8a7-74ab-4692-81e7-23ca582c59a6, .uuid-3f04f44f-2923-426d-9bbe-7b1aa3c57dfe {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="uuid-e855594b-fc60-4ffc-be95-d8b921157dc8" data-name="Livello 2">
+    <g id="uuid-4896f4af-de80-4759-a6bf-5ba2faad7b8f" data-name="Tracciato 166">
+      <path class="uuid-72d5a690-e387-4063-86c4-4f8070c3f360" d="M33.33,0h233.33c18.41,0,33.33,14.92,33.33,33.33h0v233.33c0,18.41-14.92,33.33-33.33,33.33H33.33c-18.41,0-33.33-14.92-33.33-33.33H0V33.33C0,14.92,14.92,0,33.33,0h0Z"/>
+    </g>
+  </g>
+  <g id="uuid-c85a9cf5-e7e4-4d75-9631-7603855ef63e" data-name="Livello 3">
+    <g id="uuid-136b0f42-8989-4b1e-8fa9-1b5844a9f8d8" data-name="Editions">
+      <g id="uuid-e5f89291-4c3e-4e2d-8c59-77124967a447" data-name="Tracciato 106">
+        <path class="uuid-9f67cc6e-2e03-4a75-a757-6ea467c92af8 dahsboardIconFill" d="M175.88,114.43c4.87,0,8.84,3.96,8.84,8.84v103.83c0,4.87-3.96,8.84-8.84,8.84H72.05c-4.87,0-8.84-3.96-8.84-8.84V123.26c0-4.87,3.96-8.84,8.84-8.84h103.83m0-6H72.05c-8.19,0-14.84,6.64-14.84,14.84v103.83c0,8.19,6.64,14.84,14.84,14.84h103.83c8.19,0,14.84-6.64,14.84-14.84V123.26c0-8.19-6.64-14.84-14.84-14.84h0Z"/>
+      </g>
+      <path id="uuid-61f1104d-f592-4afd-b1f3-8e84916232fc" data-name="Tracciato 106" class="uuid-3f04f44f-2923-426d-9bbe-7b1aa3c57dfe dashboardIconStroke" d="M78.69,108.43v-6.64c0-8.19,6.64-14.84,14.84-14.84h103.83c8.19,0,14.84,6.64,14.84,14.84v103.83c0,8.19-6.64,14.84-14.84,14.84h-6.64"/>
+      <g id="uuid-0c3a2332-c8f7-4890-97b0-18e269fd30da" data-name="Tracciato 106">
+        <g>
+          <line class="uuid-3f04f44f-2923-426d-9bbe-7b1aa3c57dfe dashboardIconStroke" x1="104.13" y1="86.95" x2="104.13" y2="77.95"/>
+          <path class="uuid-f65cc8a7-74ab-4692-81e7-23ca582c59a6 dashboardIconStroke" d="M112.95,62.78c1.84-.82,3.87-1.27,6.01-1.27h103.83c8.19,0,14.84,6.64,14.84,14.84v103.83c0,5.49-2.99,10.29-7.42,12.85"/>
+          <line class="uuid-3f04f44f-2923-426d-9bbe-7b1aa3c57dfe dashboardIconStroke" x1="221.19" y1="195.01" x2="212.19" y2="195.01"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

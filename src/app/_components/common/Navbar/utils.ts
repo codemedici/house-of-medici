@@ -15,8 +15,8 @@ export const navbarLinks = [
     name: "insights",
     href: "/insights",
   },
-  // {
-  //   name: "about",
-  //   href: "/aboutus",
-  // },
+  {
+    name: "about",
+    href: "/about",
+  },
 ];

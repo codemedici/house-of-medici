@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-09b65eb4-c68a-4f8a-8aa3-223f08ad5af2" data-name="uuid-cbfe9e71-e552-41a8-b171-3394524dcd05" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 794.55 720.09">
+  <defs>
+    <style>
+      .uuid-4bc5bc8d-5c1d-46de-8485-fba218351e60 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 30px;
+      }
+
+      .uuid-19efd736-6f73-4cb2-81a9-9ce2477cb22b {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <polyline class="uuid-4bc5bc8d-5c1d-46de-8485-fba218351e60" points="355.19 430.1 101.69 705 33.99 704.1 326.79 388.9"/>
+  <polyline class="uuid-4bc5bc8d-5c1d-46de-8485-fba218351e60" points="456.49 253.5 672.69 15 760.49 15 490.89 309.6"/>
+  <path class="uuid-19efd736-6f73-4cb2-81a9-9ce2477cb22b" d="M231.09,43.1l443.7,633.8h-101.4L124.99,43.4l106.1-.3m58-34.7L10.29,9.2l505.4,702.5h273.8L289.09,8.4h0Z"/>
+</svg>

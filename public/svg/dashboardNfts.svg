@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .uuid-adc5a773-9af3-44e9-bab1-7338fbd5e0c2 {
+        fill: #fff;
+      }
+
+      .uuid-4b2d51c1-f23f-47e2-97fa-6f7e6d40ea75 {
+        fill: transparent;
+      }
+
+      .uuid-06a201f7-e7bb-4768-8762-4248e2cca4d7 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="uuid-eb7077d5-2396-4e69-aa2d-015073d4159c" data-name="Livello 2">
+    <g id="uuid-d8735f13-ceb3-40f7-9c5f-76ecc37ac7d2" data-name="Tracciato 166">
+      <path class="uuid-4b2d51c1-f23f-47e2-97fa-6f7e6d40ea75" d="M33.33,0h233.33c18.41,0,33.33,14.92,33.33,33.33h0v233.33c0,18.41-14.92,33.33-33.33,33.33H33.33c-18.41,0-33.33-14.92-33.33-33.33H0V33.33C0,14.92,14.92,0,33.33,0h0Z"/>
+    </g>
+  </g>
+  <g id="uuid-6fcd6241-e650-4896-a996-9edd685f19f4" data-name="Livello 3">
+    <g id="uuid-ec50ee1e-c966-419d-ade5-985330bfbfcb" data-name="Artworks">
+      <g id="uuid-4a14409b-cc6f-4dc0-9cb1-b009c691f0b5" data-name="Tracciato 166">
+        <path class="uuid-adc5a773-9af3-44e9-bab1-7338fbd5e0c2 dahsboardIconFill" d="M221.05,63.68c7.97,0,14.45,6.48,14.45,14.45V221.28c0,3.86-1.5,7.49-4.23,10.22-2.73,2.73-6.36,4.23-10.22,4.23H77.9c-7.97,0-14.45-6.48-14.45-14.45V78.13c0-7.97,6.48-14.45,14.45-14.45H221.05m0-6H77.9c-11.29,0-20.45,9.16-20.45,20.45V221.28c0,11.29,9.16,20.45,20.45,20.45H221.05c11.29,0,20.45-9.16,20.45-20.45V78.13h0c0-11.3-9.16-20.45-20.45-20.45h0Z"/>
+      </g>
+      <g id="uuid-04ab2778-3709-45dd-aab9-e0b2c24b4c2a" data-name="Tracciato 167">
+        <path class="uuid-adc5a773-9af3-44e9-bab1-7338fbd5e0c2 dahsboardIconFill" d="M110.59,95.13v6s0,0,0,0c5.19,0,9.41,4.22,9.41,9.41,0,5.19-4.22,9.41-9.41,9.41-2.51,0-4.88-.98-6.65-2.76-1.78-1.78-2.76-4.14-2.76-6.65,0-5.19,4.22-9.41,9.41-9.41v-6m0,0c-8.51,0-15.41,6.9-15.41,15.41,0,8.51,6.9,15.41,15.41,15.41s15.41-6.9,15.41-15.41h0c0-8.51-6.9-15.41-15.41-15.41h0Z"/>
+      </g>
+      <g id="uuid-bfdfc8e9-682a-46c4-afe3-d5fdb61d3a5d" data-name="Tracciato 168">
+        <path class="uuid-06a201f7-e7bb-4768-8762-4248e2cca4d7 dashboardIconStroke" d="M90.56,235.89l93.23-93.73c5.58-5.61,14.66-5.61,20.24,0l32.9,33.07"/>
+      </g>
+    </g>
+  </g>
+</svg>

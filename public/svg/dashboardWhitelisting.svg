@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .uuid-1aaef88c-2669-4fca-a941-25995da98a00 {
+        fill: #fff;
+      }
+
+      .uuid-ffcdc1a5-3a72-44ea-9a10-af247061d259 {
+        fill: transparent;
+      }
+
+      .uuid-172537f5-2bbd-4133-8bd6-972e8ed39afa {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="uuid-995f1e12-5daa-41e4-a344-886a5f661e62" data-name="Livello 2">
+    <g id="uuid-4b71e68e-e2de-4e9c-815e-e1b53b711828" data-name="Tracciato 166">
+      <path class="uuid-ffcdc1a5-3a72-44ea-9a10-af247061d259" d="M33.33,0h233.33c18.41,0,33.33,14.92,33.33,33.33h0v233.33c0,18.41-14.92,33.33-33.33,33.33H33.33c-18.41,0-33.33-14.92-33.33-33.33H0V33.33C0,14.92,14.92,0,33.33,0h0Z"/>
+    </g>
+  </g>
+  <g id="uuid-70fe8104-dfa3-40cb-864e-5ddeb0f150b1" data-name="Livello 3">
+    <g id="uuid-cf403e21-2a59-453a-92b7-3725659e557f" data-name="Whitelisting">
+      <g id="uuid-f99f94da-e338-49f9-bc39-067f0951b5f4" data-name="Tracciato 106">
+        <path class="uuid-1aaef88c-2669-4fca-a941-25995da98a00 dahsboardIconFill" d="M99.78,132c2.33,0,4.22,1.89,4.22,4.22v29.55c0,2.33-1.89,4.22-4.22,4.22h-29.55c-2.33,0-4.22-1.89-4.22-4.22v-29.55c0-2.33,1.89-4.22,4.22-4.22h29.55m0-6h-29.55c-5.64,0-10.22,4.59-10.22,10.22v29.55c0,5.64,4.59,10.22,10.22,10.22h29.55c5.64,0,10.22-4.59,10.22-10.22v-29.55c0-5.64-4.59-10.22-10.22-10.22h0Z"/>
+      </g>
+      <g id="uuid-807799a1-347c-48a2-a17f-f641831e9feb" data-name="Tracciato 106">
+        <path class="uuid-1aaef88c-2669-4fca-a941-25995da98a00 dahsboardIconFill" d="M228.78,132c2.33,0,4.22,1.89,4.22,4.22v29.55c0,2.33-1.89,4.22-4.22,4.22h-29.55c-2.33,0-4.22-1.89-4.22-4.22v-29.55c0-2.33,1.89-4.22,4.22-4.22h29.55m0-6h-29.55c-5.64,0-10.22,4.59-10.22,10.22v29.55c0,5.64,4.59,10.22,10.22,10.22h29.55c5.64,0,10.22-4.59,10.22-10.22v-29.55c0-5.64-4.59-10.22-10.22-10.22h0Z"/>
+      </g>
+      <g id="uuid-5063a926-6f68-40ed-bbf2-eb67f1293160" data-name="Tracciato 106">
+        <path class="uuid-1aaef88c-2669-4fca-a941-25995da98a00 dahsboardIconFill" d="M164.78,195c2.33,0,4.22,1.89,4.22,4.22v29.55c0,2.33-1.89,4.22-4.22,4.22h-29.55c-2.33,0-4.22-1.89-4.22-4.22v-29.55c0-2.33,1.89-4.22,4.22-4.22h29.55m0-6h-29.55c-5.64,0-10.22,4.59-10.22,10.22v29.55c0,5.64,4.59,10.22,10.22,10.22h29.55c5.64,0,10.22-4.59,10.22-10.22v-29.55c0-5.64-4.59-10.22-10.22-10.22h0Z"/>
+      </g>
+      <path class="uuid-172537f5-2bbd-4133-8bd6-972e8ed39afa dashboardIconStroke" d="M190.53,151.31c-22.68,0-40.03-20.76-40.03-43.81,0,23.05-19.38,43.81-42.01,43.81"/>
+      <path class="uuid-172537f5-2bbd-4133-8bd6-972e8ed39afa dashboardIconStroke" d="M150.5,61.28V189.65"/>
+      <polyline class="uuid-172537f5-2bbd-4133-8bd6-972e8ed39afa dashboardIconStroke" points="177.44 89.69 150.33 61.22 122.56 89.69"/>
+    </g>
+  </g>
+</svg>

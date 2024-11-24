@@ -1,16 +1,20 @@
-import Logo from "./components/Logo";
-import InstructionList from "./components/InstructionList";
-import CTAButtons from "./components/CTAButtons";
+import React from "react";
+import HeroSection from "./components/HeroSection";
+import FeaturedArticles from "./components/FeaturedArticles";
+import FeaturedCollections from "./components/FeaturedCollections";
+import NewsletterSection from "./components/NewsletterSection";
 
 const Home = () => {
+  const articles = []; // Replace with actual data
+  const collections = []; // Replace with actual data
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Logo />
-        <InstructionList />
-        <CTAButtons />
-      </main>
-    </div>
+    <main>
+      <HeroSection />
+      <FeaturedArticles articles={articles} />
+      <FeaturedCollections collections={collections} />
+      <NewsletterSection />
+    </main>
   );
 };
 
