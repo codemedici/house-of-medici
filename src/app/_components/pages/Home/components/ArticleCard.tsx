@@ -15,9 +15,14 @@ type Props = {
 
 const ArticleCard = (props: Props) => {
   const { article } = props;
+
+  const safeCreateArtLink = createArtLink || ((title: string, id: string) => {
+    return `${title.replace(/\s+/g, "-").toLowerCase()}-${id}`;
+  });
+
   return (
     <Link
-      href={`${baseUrl}/${article.type}/${createArtLink(article.title.replace(",", ""), article.id.toString())}`}
+      href={`${baseUrl}/${article.type}/${safeCreateArtLink(article.title.replace(",", ""), article.id.toString())}`}
       target="_blank"
     >
       <div className="w-full h-fit rounded-xl overflow-hidden relative">
@@ -37,10 +42,6 @@ const ArticleCard = (props: Props) => {
           <p>{article.type === "article" ? "editorial" : article.type}</p>
         </div>
         <div className="p-6 backdrop-blur-xl w-full h-fit flex flex-col gap-3 opacity-0 pointer-events-none">
-          <p className="line-clamp-2 h-12">{article.title}</p>
-          <p className="text-xs font-light line-clamp-6">{article.excerpt}</p>
-        </div>
-        <div className="p-6 backdrop-blur-xl w-full h-fit flex flex-col gap-3">
           <p className="line-clamp-2 h-12">{article.title}</p>
           <p className="text-xs font-light line-clamp-6">{article.excerpt}</p>
         </div>

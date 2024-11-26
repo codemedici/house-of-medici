@@ -1,20 +1,29 @@
 import React from "react";
-import HeroSection from "./components/HeroSection";
-import FeaturedArticles from "./components/FeaturedArticles";
-import FeaturedCollections from "./components/FeaturedCollections";
-import NewsletterSection from "./components/NewsletterSection";
+import AdvisorySection from "./sections/AdvisorySection";
+import ArticlesSection from "./sections/ArticlesSection";
+import BlurSection from "./sections/BlurSection";
+import CollectionsSection from "./sections/CollectionsSection";
+import CurationSection from "./sections/CurationSection";
+import LearnMoreSection from "./sections/LearnMoreSection";
 
 const Home = () => {
-  const articles = []; // Replace with actual data
-  const collections = []; // Replace with actual data
+
+  const curation = {
+    banner: 'images/medici-coat-of-arms-low-res.jpeg',
+    title: 'La Collezione Medici',
+    description: 'Esplora l\'arte contemporanea e classica in un viaggio senza tempo.',
+    link: 'https://medici.art/commission-work',
+  }
 
   return (
-    <main>
-      <HeroSection />
-      <FeaturedArticles articles={articles} />
-      <FeaturedCollections collections={collections} />
-      <NewsletterSection />
-    </main>
+    <div>
+      <BlurSection />
+      <CurationSection curation={curation} />
+      <CollectionsSection />
+      <ArticlesSection />
+      <LearnMoreSection />
+      <AdvisorySection />
+    </div>
   );
 };
 
