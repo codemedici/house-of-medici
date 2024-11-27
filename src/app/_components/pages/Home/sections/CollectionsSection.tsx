@@ -1,9 +1,19 @@
 import React from "react";
-import CollectionCard from "~/app/_components/common/Cards/CollectionCard";
+import CollectionCard from "~/app/_components/common/Cards/CollectionCard"; // Ensure this path is correct
 
 const mockCollections = [
-  { id: 1, name: "Renaissance Art", image: "/images/collection1.jpg" },
-  { id: 2, name: "Modern Art", image: "/images/collection2.jpg" },
+  {
+    id: 1,
+    name: "Medici Archives",
+    image: "/images/medici-archives.jpg",
+    description: "A journey through history and artistry.",
+  },
+  {
+    id: 2,
+    name: "Digital Renaissance",
+    image: "/images/florence-by-samantha.png",
+    description: "Modern art inspired by the Renaissance period.",
+  },
 ];
 
 const CollectionsSection = () => {

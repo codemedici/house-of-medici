@@ -1,7 +1,6 @@
 import React from "react";
 import AdvisorySection from "./sections/AdvisorySection";
 import ArticlesSection from "./sections/ArticlesSection";
-import BlurSection from "./sections/BlurSection";
 import CollectionsSection from "./sections/CollectionsSection";
 import CurationSection from "./sections/CurationSection";
 import LearnMoreSection from "./sections/LearnMoreSection";
@@ -17,7 +16,6 @@ const Home = () => {
 
   return (
     <div>
-      <BlurSection />
       <CurationSection curation={curation} />
       <CollectionsSection />
       <ArticlesSection />

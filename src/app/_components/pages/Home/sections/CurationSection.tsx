@@ -5,7 +5,7 @@ type CurationProps = {
   curation: {
     banner: string | null;
     title: string;
-    organizer: string;
+    description: string;
     link: string;
   };
 };
@@ -34,7 +34,7 @@ const CurationSection = (props: CurationProps) => {
           <div className="flex flex-col gap-2 rounded-xl backdrop-blur-xl px-4 py-2">
             <p className="text-lg md:text-lg">{curation.title}</p>
             <p className="md:text-lg font-light">
-              A project by @{curation.organizer}
+              {curation.description}
             </p>
           </div>
         </div>
