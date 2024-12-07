@@ -1,22 +1,14 @@
 export const navbarLinks = [
   {
-    name: "collections",
-    href: "/collections",
-  },
-  {
-    name: "art",
+    name: "Art Collection",
     href: "/art",
   },
   {
-    name: "news",
-    href: "/news",
+    name: "Editorial",
+    href: "/editorial",
   },
   {
-    name: "insights",
-    href: "/insights",
-  },
-  {
-    name: "about",
+    name: "About",
     href: "/about",
   },
 ];

@@ -25,12 +25,12 @@ const mockArticles = [
   },
 ];
 
-const ArticlesSection = () => {
+const EditorialSection = () => {
   return (
     <div className="flex flex-col gap-8">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-semibold">Editorial Focus</h2>
-        <a href="/insights" className="text-sm font-light hover:underline">
+        <a href="/editorial" className="text-sm font-light hover:underline">
           Read more content
         </a>
       </div>
@@ -43,4 +43,4 @@ const ArticlesSection = () => {
   );
 };
 
-export default ArticlesSection;
+export default EditorialSection;

@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 
 type CollectionProps = {
@@ -11,28 +9,21 @@ type CollectionProps = {
   };
 };
 
-const CollectionCard = (props: CollectionProps) => {
-  const { collection } = props;
-
+const CollectionCard = ({ collection }: CollectionProps) => {
   return (
-    <a
-      href={`/collections/${collection.id}`}
-      className="group block relative rounded-lg overflow-hidden border-2 border-transparent hover:border-yellow-400 transition-all duration-300"
-    >
-      {/* Image container */}
-      <div className="relative">
+    <div className="flex flex-col h-[300px] md:h-[340px] bg-bumpyBackground rounded-md overflow-hidden">
+      <div className="relative h-2/3 w-full">
         <img
           src={collection.image}
           alt={collection.name}
-          className="w-full h-[430px] object-cover rounded-lg"
+          className="w-full h-full object-cover"
         />
-        {/* Title and description */}
-        <div className="absolute bottom-0 w-full bg-black/40 backdrop-blur-md text-white p-4">
-          <h3 className="text-lg font-semibold">{collection.name}</h3>
-          <p className="text-sm font-light mt-2">{collection.description}</p>
-        </div>
       </div>
-    </a>
+      <div className="p-4 flex flex-col justify-between flex-grow">
+        <h3 className="text-lg font-semibold line-clamp-2">{collection.name}</h3>
+        <p className="text-sm font-light line-clamp-3">{collection.description}</p>
+      </div>
+    </div>
   );
 };
 

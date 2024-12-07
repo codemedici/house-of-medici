@@ -10,8 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
         background: "#111111",
@@ -25,38 +24,20 @@ const config: Config = {
         groovy: "inset 3px 3px 12px #000000",
         shine: "0px 0px 10px 0px #ffffff",
         shineSmall: "0px 0px 8px -2px rgba(255, 255, 255, 0.5)",
-        whiteBumpy: "inset 3px 3px 12px #ffffff",
-        whiteGroovy: "inset 3px 3px 3px #e6e6e6",
-        glassImage: "inset 10px 10px 20px -10px rgba(255, 255, 255, 0.5)",
+      },
+      animation: {
+        pulse: "pulse 1s infinite",
       },
       keyframes: {
         pulse: {
-          "0%": {
-            transform: "scale(0.75)",
-          },
-          "20%": {
-            transform: "scale(1)",
-          },
-          "40%": {
-            transform: "scale(0.75)",
-          },
-          "60%": {
-            transform: "scale(1)",
-          },
-          "80%": {
-            transform: "scale(0.75)",
-          },
-          "100%": {
-            transform: "scale(0.75)",
-          },
+          "0%": { transform: "scale(0.75)" },
+          "50%": { transform: "scale(1)" },
+          "100%": { transform: "scale(0.75)" },
         },
-      },
-      animation: {
-        "spin-slow": "spin 2s linear infinite",
-        pulse: "pulse 1s infinite",
       },
     },
   },
   plugins: [],
 };
+
 export default config;

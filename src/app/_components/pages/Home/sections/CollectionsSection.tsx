@@ -18,7 +18,7 @@ const mockCollections = [
 
 const CollectionsSection = () => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 mt-8 mb-8">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-semibold">Discover Latest Collections</h2>
         <a href="/collections" className="text-sm font-light hover:underline">
