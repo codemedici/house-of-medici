@@ -1,17 +1,14 @@
-// src/app/(medici)/collections/page.tsx
-
 import React from "react";
-import CollectionsSection from "~/app/_components/pages/Home/sections/CollectionsSection";
-
-export const metadata = {
-  title: "Collections - Medici Art",
-  description: "Explore a wide range of curated art collections.",
-};
+import HeroSection from "~/app/_components/pages/Collections/components/HeroSection";
+import CollectionsGrid from "~/app/_components/pages/Collections/components/CollectionsGrid";
+import FooterCTA from "~/app/_components/pages/Collections/components/FooterCTA";
 
 const CollectionsPage = () => {
   return (
-    <div className="container mx-auto">
-      <CollectionsSection />
+    <div>
+      <HeroSection />
+      <CollectionsGrid />
+      <FooterCTA />
     </div>
   );
 };

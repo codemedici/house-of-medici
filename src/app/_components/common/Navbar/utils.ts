@@ -1,7 +1,7 @@
 export const navbarLinks = [
   {
     name: "Art Collection",
-    href: "/art",
+    href: "/collections",
   },
   {
     name: "Editorial",
