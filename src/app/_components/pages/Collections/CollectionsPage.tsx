@@ -5,7 +5,6 @@ import { collections } from "~/utils/constants";
 
 const CollectionsPage = () => {
   return (
-    //<div className="snap-y snap-mandatory h-screen overflow-y-scroll">
     <div className="snap-container">
       {collections.map((collection, index) => (
         <div key={index} className="snap-start h-screen flex flex-col">
