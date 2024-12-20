@@ -1,12 +1,22 @@
 import React from "react";
-import Section from "./components/Section";
-import sectionsData from "./components/SectionData";
+import HeroSection from "~/app/_components/pages/Collections/components/HeroSection";
+import ArtworksGrid from "~/app/_components/pages/Collections/components/ArtworksGrid";
+import { collections } from "~/utils/constants";
 
 const CollectionsPage = () => {
   return (
+    //<div className="snap-y snap-mandatory h-screen overflow-y-scroll">
     <div className="snap-container">
-      {sectionsData.map((section, index) => (
-        <Section key={index} section={section} isReversed={index % 2 !== 0} />
+      {collections.map((collection, index) => (
+        <div key={index} className="snap-start h-screen flex flex-col">
+          {/* Hero Section */}
+          <HeroSection collection={collection} />
+          {/* Artworks Grid */}
+          <ArtworksGrid
+            artworks={collection.artworks}
+            subdomain={collection.subdomain}
+          />
+        </div>
       ))}
     </div>
   );

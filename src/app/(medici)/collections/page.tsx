@@ -1,16 +1,8 @@
 import React from "react";
-import HeroSection from "~/app/_components/pages/Collections/components/HeroSection";
-import CollectionsGrid from "~/app/_components/pages/Collections/components/CollectionsGrid";
-import FooterCTA from "~/app/_components/pages/Collections/components/FooterCTA";
+import CollectionsPage from "~/app/_components/pages/Collections/CollectionsPage";
 
-const CollectionsPage = () => {
-  return (
-    <div>
-      <HeroSection />
-      <CollectionsGrid />
-      <FooterCTA />
-    </div>
-  );
+const Page = () => {
+  return <CollectionsPage />;
 };
 
-export default CollectionsPage;
+export default Page;
